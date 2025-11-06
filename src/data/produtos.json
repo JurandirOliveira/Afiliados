@@ -163,7 +163,63 @@
     "precoFinal": 39,
     "ordem": 3,
     "freteGratis": true
+  },
+  {
+    "id": 16,
+    "categoria": "Saúde e Fitness",
+    "nomeProduto": "Estação De Musculação De 45kg Wct Fitness Cor da estrutura Preto Cor do estofamento Preto e vermelho",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_608546-MLA95700983130_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1G5kW2b",
+    "precoSemDesconto": 3000,
+    "precoFinal": 1619.10,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 17,
+    "categoria": "Saúde e Fitness",
+    "nomeProduto": "Omega 3 Omegafor Plus 240caps Concentrado Vitafor",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_989284-MLA95696481302_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1SuqzJL",
+    "precoSemDesconto": 325,
+    "precoFinal": 201.70,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 18,
+    "categoria": "Saúde e Fitness",
+    "nomeProduto": "Bicicleta Ergométrica Fitness Spinning Preto E Vermelho Cor Cor Preto e Vermelho",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_993847-MLA95941701131_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1wzxLkY",
+    "precoSemDesconto": 1111,
+    "precoFinal":689.83,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 19,
+    "categoria": "Saúde e Fitness",
+    "nomeProduto": "Relógio Garmin Forerunner 55 Monitor Cardíaco E Gps 42mm Black Mesh Black Preto",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_909697-MLA95696714940_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2h2jUz8",
+    "precoSemDesconto": 2010,
+    "precoFinal":1260,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 20,
+    "categoria": "Saúde e Fitness",
+    "nomeProduto": "Conjunto Fitness Virginia Top Shorts Meia Coxa Cintura Alta",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_603499-MLB97257279119_112025-F-conjunto-fitness-virginia-top-shorts-meia-coxa-cintura-alta.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2iyPBe2",
+    "precoSemDesconto": 59,
+    "precoFinal":35.05,
+    "ordem": 3,
+    "freteGratis": true
   }
+
 
 
   
