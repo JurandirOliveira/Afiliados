@@ -1,14 +1,13 @@
-// src/app/produtos/components/Header.tsx
 import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="w-full shadow-md">
-      <div className="flex w-full">
+    <header className="w-full shadow-md bg-[#ffe700] ">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 md:py-4">
 
-        {/* LADO ESQUERDO - FUNDO PRETO */}
-<div className="hidden sm:flex bg-black text-white flex-col items-center gap-1 px-4 py-3 min-w-[130px] sm:w-[250px]">
-          <div className="w-12 h-18 relative">
+        {/* LOGO JO */}
+        <div className="flex flex-col items-center gap-2">
+          <div className="relative w-14 h-14 md:w-14 md:h-14">
             <Image
               src="/logo-jo.png"
               alt="Logo JO"
@@ -17,36 +16,30 @@ export default function Header() {
             />
           </div>
 
-          <div className="flex flex-col leading-tight">
-            <span className="text-sm font-semibold">Afiliado ML</span>
-            {/* <span className="text-sm font-semibold">recomendados</span> */}
-          </div>
+          <span className="text-sm font-semibold text-gray-900 hidden sm:block">
+            Afiliado ML
+          </span>
         </div>
 
-        {/* CENTRO - FUNDO AMARELO */}
-        <div className="flex-1 bg-[#ffe700]  flex items-center justify-center px-4 py-3">
-          <h1 className="text-lg md:text-2xl font-semibold text-gray-900 text-center">
-            Aproveite Ofertas Exclusivas!
+        {/* TÍTULO CENTRAL */}
+        <div className="text-center flex-1 px-4">
+          <h1 className="text-lg md:text-2xl font-bold text-gray-900 leading-tight">
+            Ofertas Selecionadas Para Você
           </h1>
-
-           {/* <h3 className="text-lg md:text-2xl font-semibold text-gray-900 text-center">
-            Aproveite Ofertas Exclusivas!
-          </h3> */}
-          
+          <p className="text-xs md:text-sm text-gray-900 mt-1 hidden sm:block">
+            Aproveite esta seleção especial de produtos Mercado Livre
+          </p>
         </div>
 
-        {/* DIREITA - FUNDO AMARELO */}
-        <div className="bg-[#ffe700]  flex items-center px-4 py-3 min-w-[140px] justify-end">
-          <div className="relative w-28 h-28">
-            <Image
-              src="/logo-ML-mobile.png"
-              alt="Logo Mercado Livre"
-              fill
-              style={{ objectFit: "contain" }}
-            />
-          </div>
+        {/* LOGO MERCADO LIVRE */}
+        <div className="relative w-20 h-20 md:w-28 md:h-28">
+          <Image
+            src="/logo-ML-mobile.png"
+            alt="Logo Mercado Livre"
+            fill
+            style={{ objectFit: "contain" }}
+          />
         </div>
-
       </div>
     </header>
   );

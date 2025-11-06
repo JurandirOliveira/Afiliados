@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "categoria": "eletronicos",
+    "categoria": "Eletrônicos",
     "nomeProduto": "Smartphone Samsung Galaxy A05s 4G 128GB 6GB RAM",
     "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_994900-MLA95712550162_102025-F.webp",
     "urlProduto": "https://mercadolivre.com/sec/2NNcheB",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "categoria": "eletronicos",
+    "categoria": "Eletrônicos",
     "nomeProduto": "Smart Tv Philips 50 4k 50pug7019 Google Tv Comando De Voz",
     "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_845562-MLA96118789513_102025-F.webp",
     "urlProduto": "https://mercadolivre.com/sec/21HhBca",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "categoria": "eletronicos",
+    "categoria": "Eletrônicos",
     "nomeProduto": "Kit 2câmera Ip Icsee Prova D'água Infravermelho Externa Wifi - HW",
     "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_877440-MLA96148708729_102025-F.webp",
     "urlProduto": "https://mercadolivre.com/sec/2LEuD6f",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "categoria": "eletronicos",
+    "categoria": "Eletrônicos",
     "nomeProduto": "Monitor Gamer Aoc 24 180hz 0,5ms Ips 24g4/p",
     "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_823824-MLA95682255140_102025-F.webp",
     "urlProduto": "https://mercadolivre.com/sec/2cAUcrH",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "categoria": "eletronicos",
+    "categoria": "Eletrônicos",
     "nomeProduto": "Notebook Lenovo IdeaPad Slim 3 15IRH10 Intel Core i5-13420H 8GB 512GB SSD Windows 11 15.3",
     "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_721945-MLA85788494302_062025-F.webp",
     "urlProduto": "https://mercadolivre.com/sec/25QBGiJ",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "categoria": "eletronicos",
+    "categoria": "Eletrônicos",
     "nomeProduto": "Air Fryer Oven Britânia 16l 4 Em 1 Porta Removível Baf16a",
     "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_780804-MLA96101949917_102025-F.webp",
     "urlProduto": "https://mercadolivre.com/sec/262vGP6",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "categoria": "eletronicos",
+    "categoria": "Eletrônicos",
     "nomeProduto": "iPhone 16e (128 GB) - Preto - Distribuidor Autorizado",
     "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_961264-MLA95713213402_102025-F.webp",
     "urlProduto": "https://mercadolivre.com/sec/1nYG4qc",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "categoria": "eletronicos",
+    "categoria": "Eletrônicos",
     "nomeProduto": "Tab Samsung Galaxy S10 Lite 128gb, 6gb Ram Cinza",
     "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_708921-MLA96416374582_102025-F.webp",
     "urlProduto": "https://mercadolivre.com/sec/1GdPFcE",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "categoria": "eletronicos",
+    "categoria": "Eletrônicos",
     "nomeProduto": "Smartphone Motorola Moto G35 5g - 256gb 12gb (4gb Ram+8gb Ram Boost) E Camera 50mp Com Ai Nfc Tela 6.7 Com Superbrilho - Coral - Vegan Leather",
     "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_708005-MLA96869225641_102025-F.webp",
     "urlProduto": "https://mercadolivre.com/sec/1p9qrqp",
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "categoria": "eletronicos",
+    "categoria": "Eletrônicos",
     "nomeProduto": "Câmera Segurança Ip Externa Wifi A28 App Icsee Prova Dagua IP66 Dome Lente Dupla Lentes 2 Em 1 Vigilancia Visão Noturna Infravermelho Casenn",
     "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_665947-MLA95711877282_102025-F.webp",
     "urlProduto": "https://mercadolivre.com/sec/1YQKdYk",
@@ -218,9 +218,178 @@
     "precoFinal":35.05,
     "ordem": 3,
     "freteGratis": true
-  }
-
-
-
-  
+  },
+  {
+    "id": 21,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Combo Egeo Desodorante Colônia: Spicy Vibe 90ml Egeo Bomb Black 90ml",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_674282-MLB96639556602_112025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2vap8kC",
+    "precoSemDesconto": 309.99,
+    "precoFinal":138.80,
+    "ordem": 4,
+    "freteGratis": true
+  },
+  {
+    "id": 22,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Aparador De Pelos Philips Oneblade Qp1424/10, Preto",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_707950-MLA95712431578_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2HFa4U8",
+    "precoSemDesconto": 226,
+    "precoFinal":129,
+    "ordem": 4,
+    "freteGratis": true
+  },
+  {
+    "id": 23,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Perfume Liz Flora O Boticário 100ml Volume Da Unidade 100 Ml",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_837324-MLU75963465495_042024-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1bNikq4",
+    "precoSemDesconto":169,
+    "precoFinal":99.90,
+    "ordem": 4,
+    "freteGratis": true
+   },
+ {
+    "id": 24,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Kit Real Techniques Everyday Essentials (5 Produtos) Blz",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_900858-MLB91352353280_092025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1brgMU7",
+    "precoSemDesconto":219.90,
+    "precoFinal":89.59,
+    "ordem": 4,
+    "freteGratis": true
+   },
+ {
+    "id": 25,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Escova Secadora, Mondial Bivolt ES-02-BI",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_662989-MLA95683167464_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2iLmrVU",
+    "precoSemDesconto":159,
+    "precoFinal":119,
+    "ordem": 4,
+    "freteGratis": true
+   },
+ {
+    "id": 26,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Deo Parfum Natura Una Blush 75ml",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_923520-MLA91526831504_092025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2ypUGNb",
+    "precoSemDesconto":229,
+    "precoFinal":165,
+    "ordem": 4,
+    "freteGratis": true
+   }
+,
+ {
+    "id": 27,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Principia Kit Completo Para Pele Sensível Com Fps 60",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_808334-MLA89683941831_082025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2i6WjwX",
+    "precoSemDesconto":132,
+    "precoFinal":100.32,
+    "ordem": 4,
+    "freteGratis": true
+   }
+,
+ {
+    "id": 28,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Principia Kit C/3 Séruns Vitamina C + Retinol + Hialurônicos",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_929892-MLA97327681325_112025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1WcpCXQ",
+    "precoSemDesconto":177,
+    "precoFinal":134.52,
+    "ordem": 4,
+    "freteGratis": true
+   }
+,
+ {
+    "id": 29,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Perfume Lattafa Asad 100ml Edp Lattafa Original Nota Fiscal",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_658469-MLB89641873920_082025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2ZkouvF",
+    "precoSemDesconto": 299.99,
+    "precoFinal": 197.36,
+    "ordem": 4,
+    "freteGratis": true
+   }
+,
+ {
+    "id": 30,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Good Girl Carolina Herrera Edp - Perfume Feminino 150ml",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_874268-MLB93395394714_092025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2bcymxQ",
+    "precoSemDesconto":1.018,
+    "precoFinal":682.08,
+    "ordem": 4,
+    "freteGratis": true
+   }
+,
+ {
+    "id": 31,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Taiff Black Ion Secador De Cabelo Profissional 2000w Cor Preto",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_759153-MLA95694264346_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2wBCmG2",
+    "precoSemDesconto":418.70,
+    "precoFinal":210.37,
+    "ordem": 4,
+    "freteGratis": true
+   }
+  ,
+ {
+    "id": 32,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Bumbum Cream 500g Creme Corporal Tratamento De Celulite, Estrias E Pelos Encravados Todo Tipo De Pele, Pele Seca E Oleosa Aplicação Dia E Noite Beleza Brasileira",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_620992-MLA96998399376_112025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2wbogDG",
+    "precoSemDesconto":289,
+    "precoFinal":180,
+    "ordem": 4,
+    "freteGratis": true
+   }
+   ,
+ {
+    "id": 33,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "O Boticário Zaad Venture Eau De Parfum 95ml",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_895569-MLB93323386244_092025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1vsq25g",
+    "precoSemDesconto":319,
+    "precoFinal":271.91,
+    "ordem": 4,
+    "freteGratis": true
+   }
+      ,
+ {
+    "id": 34,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Vulcan Feu - Avenida Francesa 100ml EDP",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_922243-MLA86673454264_062025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1pYecq4",
+    "precoSemDesconto":450,
+    "precoFinal":320,
+    "ordem": 4,
+    "freteGratis": true
+   }  ,
+ {
+    "id": 35,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Perfume Rabanne Phantom Eau de Toilette 50 ml Masculino",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_797821-MLA72898529891_112023-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1UfMnmq",
+    "precoSemDesconto":598,
+    "precoFinal":404.11,
+    "ordem": 4,
+    "freteGratis": true
+   }
 ]
