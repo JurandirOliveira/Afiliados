@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "categoria": "eletronicos",
+    "nomeProduto": "Smartphone Samsung Galaxy A05s 4G 128GB 6GB RAM",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_994900-MLA95712550162_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2NNcheB",
+    "precoSemDesconto": 1.099,
+    "precoFinal": 626.05,
+    "ordem": 1,
+    "freteGratis": true
+  },
+  {
+    "id": 2,
+    "categoria": "eletronicos",
+    "nomeProduto": "Smart Tv Philips 50 4k 50pug7019 Google Tv Comando De Voz",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_845562-MLA96118789513_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/21HhBca",
+    "precoSemDesconto": 2749,
+    "precoFinal": 1684.89,
+    "ordem": 2,
+    "freteGratis": true
+  },
+  {
+    "id": 3,
+    "categoria": "eletronicos",
+    "nomeProduto": "Kit 2câmera Ip Icsee Prova D'água Infravermelho Externa Wifi - HW",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_877440-MLA96148708729_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2LEuD6f",
+    "precoSemDesconto": 339,
+    "precoFinal": 200.01,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 4,
+    "categoria": "eletronicos",
+    "nomeProduto": "Monitor Gamer Aoc 24 180hz 0,5ms Ips 24g4/p",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_823824-MLA95682255140_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2cAUcrH",
+    "precoSemDesconto": 899,
+    "precoFinal": 169.99,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 5,
+    "categoria": "eletronicos",
+    "nomeProduto": "Notebook Lenovo IdeaPad Slim 3 15IRH10 Intel Core i5-13420H 8GB 512GB SSD Windows 11 15.3",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_721945-MLA85788494302_062025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/25QBGiJ",
+    "precoSemDesconto": 5299,
+    "precoFinal": 2767.68,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 6,
+    "categoria": "eletronicos",
+    "nomeProduto": "Air Fryer Oven Britânia 16l 4 Em 1 Porta Removível Baf16a",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_780804-MLA96101949917_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/262vGP6",
+    "precoSemDesconto": 899,
+    "precoFinal": 499,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 7,
+    "categoria": "eletronicos",
+    "nomeProduto": "iPhone 16e (128 GB) - Preto - Distribuidor Autorizado",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_961264-MLA95713213402_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1nYG4qc",
+    "precoSemDesconto": 5799,
+    "precoFinal": 3499,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 8,
+    "categoria": "eletronicos",
+    "nomeProduto": "Tab Samsung Galaxy S10 Lite 128gb, 6gb Ram Cinza",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_708921-MLA96416374582_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1GdPFcE",
+    "precoSemDesconto": 2799,
+    "precoFinal": 1979.10,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 9,
+    "categoria": "eletronicos",
+    "nomeProduto": "Smartphone Motorola Moto G35 5g - 256gb 12gb (4gb Ram+8gb Ram Boost) E Camera 50mp Com Ai Nfc Tela 6.7 Com Superbrilho - Coral - Vegan Leather",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_708005-MLA96869225641_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1p9qrqp",
+    "precoSemDesconto": 1863,
+    "precoFinal": 859,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 10,
+    "categoria": "eletronicos",
+    "nomeProduto": "Câmera Segurança Ip Externa Wifi A28 App Icsee Prova Dagua IP66 Dome Lente Dupla Lentes 2 Em 1 Vigilancia Visão Noturna Infravermelho Casenn",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_665947-MLA95711877282_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1YQKdYk",
+    "precoSemDesconto": 210,
+    "precoFinal": 129,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 11,
+    "categoria": "Saúde e Fitness",
+    "nomeProduto": "Creatina Monohidratada Pura 500g Dark Lab Unidade",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_818366-MLA96099109077_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2e7HJDf",
+    "precoSemDesconto": 150,
+    "precoFinal": 49,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 12,
+    "categoria": "Saúde e Fitness",
+    "nomeProduto": "Loção Hidratante Sem Perfume 473ml CeraVe",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_994628-MLU78867835193_092024-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1MrLGuE",
+    "precoSemDesconto": 134,
+    "precoFinal": 75,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 13,
+    "categoria": "Saúde e Fitness",
+    "nomeProduto": "Creatina Monohidratada 1Kg Soldiers Nutrition 100% Pura Importada Alta Performance Músculo Treino",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_709564-MLA95708207730_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/31Nt6e6",
+    "precoSemDesconto": 239,
+    "precoFinal": 78,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 14,
+    "categoria": "Saúde e Fitness",
+    "nomeProduto": "Bicicleta Spinning Com Roda De Inércia De 13kg Wct Fitness Cor Preto",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_878739-MLA96103266673_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2PaUfkR",
+    "precoSemDesconto": 2290,
+    "precoFinal": 1349,
+    "ordem": 3,
+    "freteGratis": true
+  },
+  {
+    "id": 15,
+    "categoria": "Saúde e Fitness",
+    "nomeProduto": "Creatina Monohidratada em Pote 300g 100% Pura Dark Lab",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_622415-MLA96118484745_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2DHCdqD",
+    "precoSemDesconto": 150,
+    "precoFinal": 39,
+    "ordem": 3,
+    "freteGratis": true
+  }
+
+
+  
+]
