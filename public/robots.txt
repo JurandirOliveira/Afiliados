@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://afiliados-sage.vercel.app/sitemap.xml
