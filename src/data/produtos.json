@@ -391,5 +391,116 @@
     "precoFinal":404.11,
     "ordem": 4,
     "freteGratis": true
+   },
+ {
+    "id": 36,
+    "categoria": "Casa, Móveis e Decoração",
+    "nomeProduto": "Guarda-roupa Casal 6 Portas 2 Gavetas França Wt",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_998921-MLA96101742677_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2qzCvue",
+    "precoSemDesconto":870,
+    "precoFinal":679.98,
+    "ordem": 4,
+    "freteGratis": true
+   }
+   ,
+ {
+    "id": 37,
+    "categoria": "Casa, Móveis e Decoração",
+    "nomeProduto": "Câmera Segurança Ip Externa Wifi A28 App Icsee Prova Dagua IP66 Dome Lente Dupla Lentes 2 Em 1 Vigilancia Visão Noturna Infravermelho Casenn",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_665947-MLA95711877282_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1YQKdYk",
+    "precoSemDesconto":210,
+    "precoFinal":129.49,
+    "ordem": 4,
+    "freteGratis": true
+   },
+ {
+    "id": 38,
+    "categoria": "Casa, Móveis e Decoração",
+    "nomeProduto": "Kit Potes Herméticos Plásticos Cinza 12 Unidades Electrolux",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_611737-MLA96140292023_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/216syeS",
+    "precoSemDesconto":119,
+    "precoFinal":81.69,
+    "ordem": 4,
+    "freteGratis": true
+   },
+ {
+    "id": 39,
+    "categoria": "Casa, Móveis e Decoração",
+    "nomeProduto": "Árvore De Natal Pinheiro Canadense Luxo 1,80m 800 Galhos Tradicional Verde Imperial Premium Grande Cheia LuvinCo",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_905472-MLA96137916281_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/12NfXxF",
+    "precoSemDesconto":374,
+    "precoFinal":226,
+    "ordem": 4,
+    "freteGratis": true
+   },
+ {
+    "id": 40,
+    "categoria": "Casa, Móveis e Decoração",
+    "nomeProduto": "Panela De Pressão Vancouver 20582620 Em Alumínio Com Revestimento Interno E Externo Antiaderente Grafite Tramontina",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_814292-MLA95706287772_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/31YwTW3",
+    "precoSemDesconto":209,
+    "precoFinal":165.89,
+    "ordem": 4,
+    "freteGratis": true
+   },
+ {
+    "id": 41,
+    "categoria": "Casa, Móveis e Decoração",
+    "nomeProduto": "Cadeira Escritório Ergonômica Bt07 Com Apoio Suporte Lombar - Preto - Malha",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_746934-MLA96570636272_112025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1LiBdpd",
+    "precoSemDesconto":1624,
+    "precoFinal":1124,
+    "ordem": 4,
+    "freteGratis": true
+   },
+ {
+    "id": 42,
+    "categoria": "Casa, Móveis e Decoração",
+    "nomeProduto": "Roçadeira Aparador Grama A Bateria Recarregável 21v 750w Profissional Com Acessórios Tcg21c The Black Tools",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_828651-MLA96115227419_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2xPFF8J",
+    "precoSemDesconto":415,
+    "precoFinal":199.90,
+    "ordem": 4,
+    "freteGratis": true
+   },
+ {
+    "id": 43,
+    "categoria": "Casa, Móveis e Decoração",
+    "nomeProduto": "Copo Térmico de Cerveja Stanley Matte Black Preto | 473ML",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_789754-MLA96081681599_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1mXdyYr",
+    "precoSemDesconto":165,
+    "precoFinal":76,
+    "ordem": 4,
+    "freteGratis": true
+   },
+ {
+    "id": 44,
+    "categoria": "Casa, Móveis e Decoração",
+    "nomeProduto": "Kit 3 Tapetes De Banheiro Microfibra Bolinha Macio Seca Pés",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_777003-MLA95700799240_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1oWgEHo",
+    "precoSemDesconto":78,
+    "precoFinal":37.99,
+    "ordem": 4,
+    "freteGratis": true
+   },
+ {
+    "id": 45,
+    "categoria": "Casa, Móveis e Decoração",
+    "nomeProduto": "Sofá Ret S/caixa 3 L Solomons Velosuede Azul Marinho 180 Cm",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_732608-MLB93107391165_092025-F-sofa-ret-scaixa-3-l-solomons-velosuede-azul-marinho-180-cm.webp",
+    "urlProduto": "https://mercadolivre.com/sec/26P615r",
+    "precoSemDesconto":3200,
+    "precoFinal":2783,
+    "ordem": 4,
+    "freteGratis": true
    }
 ]

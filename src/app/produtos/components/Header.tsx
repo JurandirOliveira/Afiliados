@@ -24,7 +24,7 @@ export default function Header() {
         {/* TÍTULO CENTRAL */}
         <div className="text-center flex-1 px-4">
           <h1 className="text-lg md:text-2xl font-bold text-gray-900 leading-tight">
-            Ofertas Selecionadas Para Você
+            Ofertas especiais selecionadas para você!
           </h1>
           <p className="text-xs md:text-sm text-gray-900 mt-1 hidden sm:block">
             Aproveite esta seleção especial de produtos Mercado Livre
