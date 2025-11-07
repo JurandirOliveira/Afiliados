@@ -36,12 +36,12 @@ export default function ProdutoCard({ produto }: ProdutoCardProps) {
       href={produto.urlProduto}
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-white rounded-xl border-0 md:border hover:shadow-lg transition p-1 md:p-4 flex flex-col cursor-pointer"
+      className="bg-white rounded-xl border hover:shadow-lg transition p-4 flex flex-col cursor-pointer"
     >
       {/* IMAGEM */}
       <div className="w-full h-52 bg-white-100 rounded-lg overflow-hidden flex items-center justify-center">
         <img
-          src={produto.urlImagem}
+          src={produto.urlImagem} 
           alt={produto.nomeProduto}
           className="w-full h-full object-contain"
         />
@@ -64,7 +64,7 @@ export default function ProdutoCard({ produto }: ProdutoCardProps) {
 
         {/* PREÇO PRINCIPAL — NÃO BOLD, PRETO, COM CENTAVOS MENORES */}
         <div className="flex items-start gap-[3px] leading-none">
-          <div className="w-full md:w-auto flex items-start gap-1">
+          
           <span className="text-[22px] font-normal text-black tracking-tight">
             R$ {reais}
           </span>
@@ -73,7 +73,7 @@ export default function ProdutoCard({ produto }: ProdutoCardProps) {
           <span className="text-[14px] font-normal text-black mt-[2px]">
             {centavos}
           </span>
-          </div>
+          
 
           {/* DESCONTO — aparece na mesma linha */}
           {temDesconto && percentualDesconto !== null && (
