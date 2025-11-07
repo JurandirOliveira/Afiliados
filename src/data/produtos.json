@@ -462,11 +462,11 @@
  {
     "id": 42,
     "categoria": "Casa, Móveis e Decoração",
-    "nomeProduto": "Roçadeira Aparador Grama A Bateria Recarregável 21v 750w Profissional Com Acessórios Tcg21c The Black Tools",
-    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_828651-MLA96115227419_102025-F.webp",
-    "urlProduto": "https://mercadolivre.com/sec/2xPFF8J",
-    "precoSemDesconto":415,
-    "precoFinal":199.90,
+    "nomeProduto": "Armário Sapateira Móveis Bonatto - Branco",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_960611-MLA94763301008_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1qfXRsS",
+    "precoSemDesconto":349,
+    "precoFinal":204.99,
     "ordem": 4,
     "freteGratis": true
    },
@@ -500,6 +500,112 @@
     "urlProduto": "https://mercadolivre.com/sec/26P615r",
     "precoSemDesconto":3200,
     "precoFinal":2783,
+    "ordem": 4,
+    "freteGratis": true
+   },
+
+
+    {
+    "id": 46,
+    "categoria": "Ferramentas",
+    "nomeProduto": "Roçadeira Aparador Grama A Bateria Recarregável 21v 750w Profissional Com Acessórios Tcg21c The Black Tools",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_828651-MLA96115227419_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2xPFF8J",
+    "precoSemDesconto":415,
+    "precoFinal":199.90,
+    "ordem": 4,
+    "freteGratis": true
+   },
+   {
+    "id": 47,
+    "categoria": "Ferramentas",
+    "nomeProduto": "Jogo Kit Maleta Ferramentas 299 Peças Gamma G19565ac",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_647046-MLA94700024398_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2Njbn2v",
+    "precoSemDesconto":119,
+    "precoFinal":59.75,
+    "ordem": 4,
+    "freteGratis": true
+   },
+   {
+    "id": 48,
+    "categoria": "Ferramentas",
+    "nomeProduto": "Parafusadeira Furadeira 48v Profissional 2 Baterias Sem Fio Cor Amarelo",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_715860-MLA97093411205_112025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2ymvWbt",
+    "precoSemDesconto":179,
+    "precoFinal":145.07,
+    "ordem": 4,
+    "freteGratis": true
+   },
+   {
+    "id": 49,
+    "categoria": "Ferramentas",
+    "nomeProduto": "Máquina Solda Mig 150 Flex Tig Lift Mma Sem Gás Cor Laranja/Preto Frequência 50 Hz/60 Hz",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_935328-MLA96128482803_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1WoN5VV",
+    "precoSemDesconto":820,
+    "precoFinal":689.47,
+    "ordem": 4,
+    "freteGratis": true
+   },{
+    "id": 50,
+    "categoria": "Ferramentas",
+    "nomeProduto": "Lavadora De Alta Pressão Kärcher K2 Plus 1740 psi/libras 1400 w 300 l/h com lança de jato leque regulável 127v",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_702189-MLA96871386653_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/29ujCHk",
+    "precoSemDesconto":1300,
+    "precoFinal":419.38,
+    "ordem": 4,
+    "freteGratis": true
+   },{
+    "id": 51,
+    "categoria": "Ferramentas",
+    "nomeProduto": "Lavadora de Alta Pressão Electrolux 1650PSI 1400W de Potência com Engate Rápido EasyWash Lava Jato Lava Car QWS1650",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_862904-MLA95835511005_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1NkjFjo",
+    "precoSemDesconto":509,
+    "precoFinal":308.55,
+    "ordem": 4,
+    "freteGratis": true
+   },{
+    "id": 52,
+    "categoria": "Ferramentas",
+    "nomeProduto": "Furadeira com Impacto Mondial 650W FI-RH-01M",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_737362-MLA96137044997_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2xatfwV",
+    "precoSemDesconto":312,
+    "precoFinal":139,
+    "ordem": 4,
+    "freteGratis": true
+   },{
+    "id": 53,
+    "categoria": "Ferramentas",
+    "nomeProduto": "Perfurador Solo Husqvarna 541ea Broca 200mm Com Kit Brindes",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_931278-MLB77164000065_062024-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1HvtvES",
+    "precoSemDesconto":3000,
+    "precoFinal":2649,
+    "ordem": 4,
+    "freteGratis": true
+   },{
+    "id": 54,
+    "categoria": "Ferramentas",
+    "nomeProduto": "Soprador De Folhas Elétrico Turbo Portátil 21v Potente Amarelo",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_881603-MLB95378831405_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1ptkdjY",
+    "precoSemDesconto":310,
+    "precoFinal":167.22,
+    "ordem": 4,
+    "freteGratis": true
+   },{
+    "id": 55,
+    "categoria": "Ferramentas",
+    "nomeProduto": "Kit Parafusadeira+ Furadeira De Impacto Brushless,3 Baterias",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_778698-MLB90177496671_082025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2HnrYfd",
+    "precoSemDesconto":460,
+    "precoFinal":372.60,
     "ordem": 4,
     "freteGratis": true
    }

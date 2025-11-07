@@ -15,10 +15,10 @@ export default function CategoriaSection({
   produtos,
   limitar = false,
 }: CategoriaSectionProps) {
-  const [expandido, setExpandido] = useState(false);
+  const [expandido, setExpandido] = useState(true);
 
   const produtosVisiveis =
-    limitar && !expandido ? produtos.slice(0, 10) : produtos;
+    limitar && !expandido ? produtos.slice(0, 5) : produtos;
 
   return (
     <section className="bg-white rounded-xl shadow-sm p-6 mb-10">
@@ -32,7 +32,7 @@ export default function CategoriaSection({
         ))}
       </div>
 
-      {limitar && produtos.length > 10 && (
+      {limitar && produtos.length > 5 && (
         <button
           onClick={() => setExpandido(!expandido)}
           className="mt-6 bg-ml-yellow text-gray-900 px-4 py-2 rounded font-semibold hover:brightness-110 transition"
