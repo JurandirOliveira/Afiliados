@@ -23,11 +23,11 @@ export default function Header() {
 
         {/* TÍTULO CENTRAL */}
         <div className="text-center flex-1 px-4">
-          <h1 className="text-lg md:text-2xl font-bold text-gray-900 leading-tight">
+          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight">
             Ofertas exclusivas!
           </h1>
-          <p className="text-xs md:text-sm text-gray-900 mt-1 ">
-            Aproveite esta seleção especial de produtos Mercado Livre
+          <p className="text-base md:text-2xl text-gray-700 mt-1 ">
+            Aproveite esta seleção especial de produtos 
           </p>
         </div>
 
