@@ -7,7 +7,7 @@ export default function Header() {
 
         {/* LOGO JO */}
         <div className="flex flex-col items-center gap-2">
-          <div className="relative w-14 h-14 md:w-14 md:h-14">
+          <div className="relative w-14 h-14 md:w-14 md:h-14 hidden sm:block">
             <Image
               src="/logo-jo.png"
               alt="Logo JO"
@@ -24,9 +24,9 @@ export default function Header() {
         {/* TÍTULO CENTRAL */}
         <div className="text-center flex-1 px-4">
           <h1 className="text-lg md:text-2xl font-bold text-gray-900 leading-tight">
-            Ofertas especiais selecionadas para você!
+            Ofertas exclusivas!
           </h1>
-          <p className="text-xs md:text-sm text-gray-900 mt-1 hidden sm:block">
+          <p className="text-xs md:text-sm text-gray-900 mt-1 ">
             Aproveite esta seleção especial de produtos Mercado Livre
           </p>
         </div>
