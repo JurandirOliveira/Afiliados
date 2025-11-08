@@ -48,7 +48,7 @@ export default function ProdutoCard({ produto }: ProdutoCardProps) {
       </div>
 
       {/* NOME DO PRODUTO */}
-      <h3 className="mt-4 font-medium text-sm text-gray-900 line-clamp-2 min-h-[44px]">
+      <h3 className="mt-0 sm:mt-4 font-medium text-sm text-gray-900 line-clamp-2 min-h-[44px]">
         {produto.nomeProduto}
       </h3>
 

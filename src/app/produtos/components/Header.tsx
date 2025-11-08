@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="w-full shadow-md bg-[#ffe700] ">
+    <header className="w-full shadow-md bg-[#ffe700] dark:bg-[#ffe700]">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 md:py-4">
 
         {/* LOGO JO */}
