@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import ForceLightMode from "./produtos/components/ForceLightMode";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -90,22 +91,63 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" style={{ colorScheme: 'light' }}>
+    <html lang="pt-BR" suppressHydrationWarning>
       <head>
         <meta name="color-scheme" content="light only" />
         <meta name="theme-color" content="#ffffff" />
+        <style dangerouslySetInnerHTML={{
+          __html: `
+            /* CSS crítico inline para prevenir flash */
+            :root, html, body {
+              color-scheme: light !important;
+              background: white !important;
+              color: gray !important;
+            }
+            html {
+              background: white !important;
+            }
+            body {
+              background: white !important;
+              color: gray !important;
+            }
+            /* Remove qualquer estilo de dark mode do browser */
+            @media (prefers-color-scheme: dark) {
+              :root, html, body {
+                color-scheme: light !important;
+                background: white !important;
+                color: gray !important;
+              }
+            }
+          `
+        }} />
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              // Previne flash de dark mode antes do CSS carregar
+              // Script executado imediatamente
               (function() {
                 try {
-                  document.documentElement.style.colorScheme = 'light';
+                  // Remove classes de dark mode
                   document.documentElement.classList.remove('dark');
-                  if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                  document.body.classList.remove('dark');
+                  
+                  // Force light scheme
+                  document.documentElement.style.colorScheme = 'light';
+                  document.documentElement.style.backgroundColor = 'white';
+                  document.body.style.backgroundColor = 'white';
+                  document.body.style.color = 'gray';
+                  
+                  // Monitora mudanças de scheme
+                  const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+                  const listener = function(e) {
+                    document.documentElement.style.colorScheme = 'light';
+                    document.documentElement.style.backgroundColor = 'white';
                     document.body.style.backgroundColor = 'white';
                     document.body.style.color = 'gray';
-                  }
+                  };
+                  mediaQuery.addListener(listener);
+                  
+                  // Aplica imediatamente
+                  document.documentElement.setAttribute('data-force-light', 'true');
                 } catch (e) {}
               })();
             `,
@@ -113,9 +155,15 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-100`}
-        style={{ colorScheme: 'light' }}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{
+          backgroundColor: 'white',
+          color: 'gray',
+          colorScheme: 'light'
+        }}
+        suppressHydrationWarning
       >
+        <ForceLightMode />
         {children}
       </body>
     </html>

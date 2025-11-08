@@ -4,44 +4,40 @@
 @tailwind components;
 @tailwind utilities;
 
+/* REMOVA tudo relacionado a variáveis CSS e dark mode */
+/* E substitua por: */
+
 :root {
-  --background: #ffffff;
-  --foreground: gray;
   color-scheme: light only;
 }
 
 html {
   color-scheme: light;
+  background: white !important;
 }
 
 body {
   color-scheme: light;
   background: white !important;
   color: gray !important;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-/* REMOVA completamente a media query de dark mode ou substitua por: */
+/* SOBRESCREVA QUALQUER dark mode de forma agressiva */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ffffff !important; /* Força light mode */
-    --foreground: gray !important;
+  :root, html, body {
+    color-scheme: light !important;
+    background: white !important;
+    color: gray !important;
   }
   
-  body {
-    background: white !important;
+  * {
+    background-color: white !important;
     color: gray !important;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Force light scheme em todos os elementos */
+* {
+  color-scheme: light !important;
 }
