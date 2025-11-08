@@ -91,7 +91,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" >
+    <html lang="pt-BR" style={{ colorScheme: 'light' }}>
+      <head>
+         <meta name="color-scheme" content="light only" />
+      </head>
       <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-100`}
       >
