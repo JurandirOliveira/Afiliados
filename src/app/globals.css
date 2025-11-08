@@ -7,7 +7,7 @@
 :root {
   --background: #ffffff;
   --foreground: gray;
-    color-scheme: light only;
+  color-scheme: light only;
 }
 
 html {
@@ -16,6 +16,8 @@ html {
 
 body {
   color-scheme: light;
+  background: white !important;
+  color: gray !important;
 }
 
 @theme inline {
@@ -25,10 +27,16 @@ body {
   --font-mono: var(--font-geist-mono);
 }
 
+/* REMOVA completamente a media query de dark mode ou substitua por: */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #f3f4f6;
-    --foreground: #ededed;
+    --background: #ffffff !important; /* Força light mode */
+    --foreground: gray !important;
+  }
+  
+  body {
+    background: white !important;
+    color: gray !important;
   }
 }
 

@@ -84,7 +84,6 @@ export const metadata: Metadata = {
   }
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -93,10 +92,29 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" style={{ colorScheme: 'light' }}>
       <head>
-         <meta name="color-scheme" content="light only" />
+        <meta name="color-scheme" content="light only" />
+        <meta name="theme-color" content="#ffffff" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              // Previne flash de dark mode antes do CSS carregar
+              (function() {
+                try {
+                  document.documentElement.style.colorScheme = 'light';
+                  document.documentElement.classList.remove('dark');
+                  if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.body.style.backgroundColor = 'white';
+                    document.body.style.color = 'gray';
+                  }
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
       </head>
       <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-100`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-100`}
+        style={{ colorScheme: 'light' }}
       >
         {children}
       </body>
