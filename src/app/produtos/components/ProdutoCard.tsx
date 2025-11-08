@@ -76,7 +76,7 @@ export default function ProdutoCard({ produto }: ProdutoCardProps) {
           
           {/* DESCONTO — aparece na mesma linha */}
           {temDesconto && percentualDesconto !== null && (
-            <span className="text-[14px] text-green-600 font-semibold ml-1 mt-[2px]">
+            <span className="text-[20px] sm:text-[16px] text-green-600 font-semibold ml-1 mt-[2px]">
               {percentualDesconto}% OFF
             </span>
           )}
