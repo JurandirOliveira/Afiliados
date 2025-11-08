@@ -76,7 +76,7 @@ export default function ProdutoCard({ produto }: ProdutoCardProps) {
           
           {/* DESCONTO — aparece na mesma linha */}
           {temDesconto && percentualDesconto !== null && (
-            <span className="text-[20px] sm:text-[16px] text-green-600 font-semibold ml-1 mt-[2px]">
+            <span className="text-[20px] sm:text-[16px] text-green-600 font-semibold ml-1 mt-[2px] " style={{color: '#20a412 !important'}}>
               {percentualDesconto}% OFF
             </span>
           )}
@@ -85,7 +85,9 @@ export default function ProdutoCard({ produto }: ProdutoCardProps) {
 
       {/* FRETE GRÁTIS */}
       {produto.freteGratis && (
-        <div className="mt-2 text-[13px] text-green-600 font-semibold">
+        <div id='frete' className="mt-2 text-[13px] text-green-600 font-semibold" 
+        style={{color: 'green !important'}}
+        >
           Frete grátis
         </div>
       )}
