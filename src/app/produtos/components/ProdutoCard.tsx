@@ -36,10 +36,10 @@ export default function ProdutoCard({ produto }: ProdutoCardProps) {
       href={produto.urlProduto}
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-white rounded-xl border hover:shadow-lg transition p-4 flex flex-col cursor-pointer"
+      className="bg-white rounded-xl border-0 sm:border hover:shadow-lg transition p-4 flex flex-col cursor-pointer"
     >
       {/* IMAGEM */}
-      <div className="w-full h-52 bg-white-100 rounded-lg overflow-hidden flex items-center justify-center">
+      <div className="w-full h-42 sm:h52 bg-white-100 dark:bg-white-100 rounded-lg overflow-hidden flex items-center justify-center">
         <img
           src={produto.urlImagem} 
           alt={produto.nomeProduto}
@@ -55,28 +55,28 @@ export default function ProdutoCard({ produto }: ProdutoCardProps) {
       {/* ÁREA DE PREÇO - estilo idêntico ao exemplo */}
       <div className="mt-2">
 
-        {/* Preço antigo riscado */}
+        {/* Preço antigo riscado 
         {temDesconto && (
           <div className="text-[12px] text-gray-400 line-through leading-none mb-[2px]">
             R$ {precoAntigo!.toFixed(2).replace(".", ",")}
           </div>
-        )}
+        )}*/}
 
         {/* PREÇO PRINCIPAL — NÃO BOLD, PRETO, COM CENTAVOS MENORES */}
         <div className="flex items-start gap-[3px] leading-none">
           
-          <span className="text-[22px] font-normal text-black tracking-tight">
+          {/* <span className="text-[22px] font-normal text-black tracking-tight">
             R$ {reais}
           </span>
 
-          {/* CENTAVOS */}
+          
           <span className="text-[14px] font-normal text-black mt-[2px]">
             {centavos}
-          </span>
+          </span> */} 
           
           {/* DESCONTO — aparece na mesma linha */}
           {temDesconto && percentualDesconto !== null && (
-            <span className="text-[13px] text-green-600 font-semibold ml-1 mt-[2px]">
+            <span className="text-[14px] text-green-600 font-semibold ml-1 mt-[2px]">
               {percentualDesconto}% OFF
             </span>
           )}
