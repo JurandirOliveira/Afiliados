@@ -1,7 +1,7 @@
 // src/app/produtos/page.tsx
 
 import type { Metadata } from "next";
-import produtosJSON from "@/data/produtos.json";
+import produtosJSON from "../../data/produtos.json";
 import Header from "./components/Header";
 import CategoriaSection from "./components/CategoriaSection";
 
