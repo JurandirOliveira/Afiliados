@@ -83,8 +83,9 @@ export default async function ProdutosPage({
   return (
     <>
       <Header />
+      <div></div>
 
-      <div className="max-w-7xl mx-auto p-4 md:p-8 bg-gray-100 min-h-screen">
+      <div className="max-w-7xl mx-auto  p-1 md:py-10 min-h-screen">
         {Object.entries(categoriasFiltradas).map(([categoria, lista]) => (
           <CategoriaSection
             key={categoria}

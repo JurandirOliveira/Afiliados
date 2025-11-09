@@ -4,34 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* APENAS ESTILOS ESSENCIAIS - sem variáveis CSS */
-html {
-  color-scheme: light !important;
-  background: white !important;
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
 }
 
 body {
-  color-scheme: light !important;
-  background: white !important;
-  color: gray !important;
-  font-family: Arial, Helvetica, sans-serif !important;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-header * {
-  color: #1f264d !important;
-  -webkit-text-fill-color: #1f264d !important;
-  filter: none !important;
-  -webkit-filter: none !important;
-  mix-blend-mode: normal !important;
-}
-
-@media (prefers-color-scheme: dark) {
-  header * {
-    color: #1f264d !important;
-    -webkit-text-fill-color: #1f264d !important;
-    filter: none !important;
-    -webkit-filter: none !important;
-    mix-blend-mode: normal !important;
-  }
-}
-/* REMOVA completamente qualquer @media (prefers-color-scheme) */

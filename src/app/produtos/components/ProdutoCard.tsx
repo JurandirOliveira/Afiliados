@@ -48,7 +48,7 @@ export default function ProdutoCard({ produto }: ProdutoCardProps) {
       </div>
 
       {/* NOME DO PRODUTO */}
-      <h3 className="mt-0 sm:mt-4 font-medium text-sm text-gray-900 line-clamp-2 min-h-[44px]">
+      <h3 className="mt-0 sm:mt-4 font-medium text-sm text-gray-900 line-clamp-3 min-h-[44px]">
         {produto.nomeProduto}
       </h3>
 
@@ -84,13 +84,13 @@ export default function ProdutoCard({ produto }: ProdutoCardProps) {
       </div>
 
       {/* FRETE GRÁTIS */}
-      {produto.freteGratis && (
+      {/* {produto.freteGratis && (
         <div id='frete' className="mt-2 text-[13px] text-green-600 font-semibold" 
         style={{color: 'green !important'}}
         >
           Frete grátis
         </div>
-      )}
+      )} */}
     </a>
   );
 }

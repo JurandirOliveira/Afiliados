@@ -1,16 +1,27 @@
 [
-  {
-    "id": 1,
+   {
+    "id": 5,
     "categoria": "Informática e Eletrônicos",
-    "nomeProduto": "Smartphone Samsung Galaxy A05s 4G 128GB 6GB RAM",
-    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_994900-MLA95712550162_102025-F.webp",
-    "urlProduto": "https://mercadolivre.com/sec/2NNcheB",
-    "precoSemDesconto": 1112,
-    "precoFinal": 629,
+    "nomeProduto": "Notebook Lenovo IdeaPad Slim 3 15IRH10 Intel Core i5-13420H 8GB 512GB SSD Windows 11 15.3",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_721945-MLA85788494302_062025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/25QBGiJ",
+    "precoSemDesconto": 5500,
+    "precoFinal": 2749.56,
     "ordem": 1,
     "freteGratis": true
   },
-  {
+    {
+    "id": 7,
+    "categoria": "Informática e Eletrônicos",
+    "nomeProduto": "iPhone 16e (128 GB) - Preto - Distribuidor Autorizado",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_961264-MLA95713213402_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1nYG4qc",
+    "precoSemDesconto": 5799,
+    "precoFinal": 3399,
+    "ordem": 2,
+    "freteGratis": true
+  },
+    {
     "id": 2,
     "categoria": "Informática e Eletrônicos",
     "nomeProduto": "Smart Tv Philips 50 4k 50pug7019 Google Tv Comando De Voz",
@@ -18,9 +29,21 @@
     "urlProduto": "https://mercadolivre.com/sec/21HhBca",
     "precoSemDesconto": 1999,
     "precoFinal": 1799.89,
-    "ordem": 2,
+    "ordem": 3,
     "freteGratis": true
   },
+   {
+    "id": 1,
+    "categoria": "Informática e Eletrônicos",
+    "nomeProduto": "Smartphone Samsung Galaxy A05s 4G 128GB 6GB RAM",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_994900-MLA95712550162_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2NNcheB",
+    "precoSemDesconto": 1112,
+    "precoFinal": 629,
+    "ordem": 3,
+    "freteGratis": true
+  },
+
   {
     "id": 3,
     "categoria": "Informática e Eletrônicos",
@@ -44,17 +67,6 @@
     "freteGratis": true
   },
   {
-    "id": 5,
-    "categoria": "Informática e Eletrônicos",
-    "nomeProduto": "Notebook Lenovo IdeaPad Slim 3 15IRH10 Intel Core i5-13420H 8GB 512GB SSD Windows 11 15.3",
-    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_721945-MLA85788494302_062025-F.webp",
-    "urlProduto": "https://mercadolivre.com/sec/25QBGiJ",
-    "precoSemDesconto": 5500,
-    "precoFinal": 2749.56,
-    "ordem": 3,
-    "freteGratis": true
-  },
-  {
     "id": 6,
     "categoria": "Informática e Eletrônicos",
     "nomeProduto": "Air Fryer Oven Britânia 16l 4 Em 1 Porta Removível Baf16a",
@@ -62,17 +74,6 @@
     "urlProduto": "https://mercadolivre.com/sec/262vGP6",
     "precoSemDesconto": 899,
     "precoFinal": 499,
-    "ordem": 3,
-    "freteGratis": true
-  },
-  {
-    "id": 7,
-    "categoria": "Informática e Eletrônicos",
-    "nomeProduto": "iPhone 16e (128 GB) - Preto - Distribuidor Autorizado",
-    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_961264-MLA95713213402_102025-F.webp",
-    "urlProduto": "https://mercadolivre.com/sec/1nYG4qc",
-    "precoSemDesconto": 5799,
-    "precoFinal": 3399,
     "ordem": 3,
     "freteGratis": true
   },
@@ -109,6 +110,28 @@
     "ordem": 3,
     "freteGratis": true
   },
+    {
+    "id": 15,
+    "categoria": "Saúde e Fitness",
+    "nomeProduto": "Creatina Monohidratada em Pote 300g 100% Pura Dark Lab",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_622415-MLA96118484745_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2DHCdqD",
+    "precoSemDesconto": 150,
+    "precoFinal": 35,
+    "ordem": 3,
+    "freteGratis": true
+  },
+    {
+    "id": 14,
+    "categoria": "Saúde e Fitness",
+    "nomeProduto": "Bicicleta Spinning Com Roda De Inércia De 13kg Wct Fitness Cor Preto",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_878739-MLA96103266673_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2PaUfkR",
+    "precoSemDesconto": 2290,
+    "precoFinal": 1349,
+    "ordem": 3,
+    "freteGratis": true
+  },
   {
     "id": 11,
     "categoria": "Saúde e Fitness",
@@ -139,28 +162,6 @@
     "urlProduto": "https://mercadolivre.com/sec/31Nt6e6",
     "precoSemDesconto": 239,
     "precoFinal": 78.90,
-    "ordem": 3,
-    "freteGratis": true
-  },
-  {
-    "id": 14,
-    "categoria": "Saúde e Fitness",
-    "nomeProduto": "Bicicleta Spinning Com Roda De Inércia De 13kg Wct Fitness Cor Preto",
-    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_878739-MLA96103266673_102025-F.webp",
-    "urlProduto": "https://mercadolivre.com/sec/2PaUfkR",
-    "precoSemDesconto": 2290,
-    "precoFinal": 1349,
-    "ordem": 3,
-    "freteGratis": true
-  },
-  {
-    "id": 15,
-    "categoria": "Saúde e Fitness",
-    "nomeProduto": "Creatina Monohidratada em Pote 300g 100% Pura Dark Lab",
-    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_622415-MLA96118484745_102025-F.webp",
-    "urlProduto": "https://mercadolivre.com/sec/2DHCdqD",
-    "precoSemDesconto": 150,
-    "precoFinal": 35,
     "ordem": 3,
     "freteGratis": true
   },
@@ -227,6 +228,17 @@
     "urlProduto": "https://mercadolivre.com/sec/2vap8kC",
     "precoSemDesconto": 309.99,
     "precoFinal": 138.8,
+    "ordem": 4,
+    "freteGratis": true
+  },
+    {
+    "id": 31,
+    "categoria": "Beleza e Cuidados Pessoais",
+    "nomeProduto": "Taiff Black Ion Secador De Cabelo Profissional 2000w Cor Preto",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_759153-MLA95694264346_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2wBCmG2",
+    "precoSemDesconto": 369.9,
+    "precoFinal": 185.40,
     "ordem": 4,
     "freteGratis": true
   },
@@ -330,17 +342,6 @@
     "freteGratis": true
   },
   {
-    "id": 31,
-    "categoria": "Beleza e Cuidados Pessoais",
-    "nomeProduto": "Taiff Black Ion Secador De Cabelo Profissional 2000w Cor Preto",
-    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_759153-MLA95694264346_102025-F.webp",
-    "urlProduto": "https://mercadolivre.com/sec/2wBCmG2",
-    "precoSemDesconto": 369.9,
-    "precoFinal": 185.40,
-    "ordem": 4,
-    "freteGratis": true
-  },
-  {
     "id": 32,
     "categoria": "Beleza e Cuidados Pessoais",
     "nomeProduto": "Bumbum Cream 500g Creme Corporal Tratamento De Celulite, Estrias E Pelos Encravados Todo Tipo De Pele, Pele Seca E Oleosa Aplicação Dia E Noite Beleza Brasileira",
@@ -384,6 +385,17 @@
     "ordem": 4,
     "freteGratis": true
   },
+    {
+    "id": 39,
+    "categoria": "Casa, Móveis e Decoração",
+    "nomeProduto": "Árvore De Natal Pinheiro Canadense Luxo 1,80m 800 Galhos Tradicional Verde Imperial Premium Grande Cheia LuvinCo",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_905472-MLA96137916281_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/12NfXxF",
+    "precoSemDesconto": 374,
+    "precoFinal": 226,
+    "ordem": 4,
+    "freteGratis": true
+  },
   {
     "id": 36,
     "categoria": "Casa, Móveis e Decoração",
@@ -417,17 +429,7 @@
     "ordem": 4,
     "freteGratis": true
   },
-  {
-    "id": 39,
-    "categoria": "Casa, Móveis e Decoração",
-    "nomeProduto": "Árvore De Natal Pinheiro Canadense Luxo 1,80m 800 Galhos Tradicional Verde Imperial Premium Grande Cheia LuvinCo",
-    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_905472-MLA96137916281_102025-F.webp",
-    "urlProduto": "https://mercadolivre.com/sec/12NfXxF",
-    "precoSemDesconto": 374,
-    "precoFinal": 226,
-    "ordem": 4,
-    "freteGratis": true
-  },
+
   {
     "id": 40,
     "categoria": "Casa, Móveis e Decoração",
@@ -507,6 +509,28 @@
     "freteGratis": true
   },
   {
+    "id": 52,
+    "categoria": "Ferramentas",
+    "nomeProduto": "Furadeira com Impacto Mondial 650W FI-RH-01M",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_737362-MLA96137044997_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/2xatfwV",
+    "precoSemDesconto": 312,
+    "precoFinal": 129,
+    "ordem": 4,
+    "freteGratis": true
+  },
+   {
+    "id": 51,
+    "categoria": "Ferramentas",
+    "nomeProduto": "Lavadora de Alta Pressão Electrolux 1650PSI 1400W de Potência com Engate Rápido EasyWash Lava Jato Lava Car QWS1650",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_862904-MLA95835511005_102025-F.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1NkjFjo",
+    "precoSemDesconto": 509,
+    "precoFinal": 308.55,
+    "ordem": 4,
+    "freteGratis": true
+  },
+  {
     "id": 47,
     "categoria": "Ferramentas",
     "nomeProduto": "Jogo Kit Maleta Ferramentas 299 Peças Gamma G19565ac",
@@ -547,28 +571,6 @@
     "urlProduto": "https://mercadolivre.com/sec/29ujCHk",
     "precoSemDesconto": 569.90,
     "precoFinal": 431.49,
-    "ordem": 4,
-    "freteGratis": true
-  },
-  {
-    "id": 51,
-    "categoria": "Ferramentas",
-    "nomeProduto": "Lavadora de Alta Pressão Electrolux 1650PSI 1400W de Potência com Engate Rápido EasyWash Lava Jato Lava Car QWS1650",
-    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_862904-MLA95835511005_102025-F.webp",
-    "urlProduto": "https://mercadolivre.com/sec/1NkjFjo",
-    "precoSemDesconto": 509,
-    "precoFinal": 308.55,
-    "ordem": 4,
-    "freteGratis": true
-  },
-  {
-    "id": 52,
-    "categoria": "Ferramentas",
-    "nomeProduto": "Furadeira com Impacto Mondial 650W FI-RH-01M",
-    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_737362-MLA96137044997_102025-F.webp",
-    "urlProduto": "https://mercadolivre.com/sec/2xatfwV",
-    "precoSemDesconto": 312,
-    "precoFinal": 129,
     "ordem": 4,
     "freteGratis": true
   },
@@ -615,6 +617,17 @@
     "urlProduto": "https://mercadolivre.com/sec/12DTFEg",
     "precoSemDesconto": 99,
     "precoFinal": 49.79,
+    "ordem": 4,
+    "freteGratis": true
+  },
+   {
+    "id": 62,
+    "categoria": "Calçados e Roupas",
+    "nomeProduto": "Top Puma Original Feminino Alta Sustentação Academia Fitness",
+    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_957992-MLB95082055131_102025-F-top-puma-original-feminino-alta-sustentaco-academia-fitness.webp",
+    "urlProduto": "https://mercadolivre.com/sec/1V11AAx",
+    "precoSemDesconto": 119,
+    "precoFinal": 41.01,
     "ordem": 4,
     "freteGratis": true
   } ,
@@ -673,17 +686,7 @@
     "ordem": 4,
     "freteGratis": true
   } ,
-  {
-    "id": 62,
-    "categoria": "Calçados e Roupas",
-    "nomeProduto": "Top Puma Original Feminino Alta Sustentação Academia Fitness",
-    "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_2X_957992-MLB95082055131_102025-F-top-puma-original-feminino-alta-sustentaco-academia-fitness.webp",
-    "urlProduto": "https://mercadolivre.com/sec/1V11AAx",
-    "precoSemDesconto": 119,
-    "precoFinal": 41.01,
-    "ordem": 4,
-    "freteGratis": true
-  } ,
+ 
   {
     "id": 63,
     "categoria": "Calçados e Roupas",
