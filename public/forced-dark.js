@@ -1,7 +1,7 @@
 // public/forced-dark.js
 console.log("FORCED DARK JS rodou!");
 
-const FORCE_TEST = true;
+const FORCE_TEST = false;
 
 (function() {
     function showBanner(url) {
