@@ -10,16 +10,23 @@
 }
 
 html {
-   color-scheme: only light !important;
-   forced-color-adjust: none;
+  color-scheme: only light !important;
   background: #efefef !important;
+  
+  forced-color-adjust: none !important;
+  isolation: isolate !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  mix-blend-mode: normal !important;
+  transform: translateZ(0) !important; /* força rasterização e isola a camada */
 }
 
 body {
   color-scheme: light !important;
   background: #efefef !important;
-  /* color: gray !important; */
   font-family: Arial, Helvetica, sans-serif !important;
+
+  isolation: isolate !important;
 }
 
 header * {
