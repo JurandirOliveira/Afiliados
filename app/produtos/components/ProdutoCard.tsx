@@ -39,7 +39,7 @@ export default function ProdutoCard({ produto }: ProdutoCardProps) {
       className="bg-white rounded-xl border-0 sm:border hover:shadow-lg transition p-4 flex flex-col cursor-pointer"
     >
       {/* IMAGEM */}
-      <div className="w-full h-42 sm:h52 bg-white-100 dark:bg-white-100 rounded-lg overflow-hidden flex items-center justify-center">
+      <div className="w-full h-42 sm:h52 bg-white-100 rounded-lg overflow-hidden flex items-center justify-center">
         <img
           src={produto.urlImagem} 
           alt={produto.nomeProduto}

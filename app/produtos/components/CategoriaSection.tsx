@@ -49,7 +49,7 @@ export default function CategoriaSection({
           onClick={() => setExpandido(!expandido)}
           className="bg-ml-yellow text-gray-900 px-4 py-2 rounded font-semibold hover:brightness-110 transition flex items-center gap-2"
         >
-          {expandido ? (
+          {expandido && limitar && produtos.length > (isMobile ? 2 : 5) ? (
             <>
               {/* Chevron Up SVG */}
               <svg
@@ -67,7 +67,7 @@ export default function CategoriaSection({
                 />
               </svg>
             </>
-          ) : (
+          ) : produtos.length > (isMobile ? 2 : 5) && (
             <>
               {/* Chevron Down SVG */}
               <svg
@@ -91,7 +91,7 @@ export default function CategoriaSection({
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-0 sm:gap-6">
         {produtosVisiveis.map((produto) => (
-          <ProdutoCard key={produto.id} produto={produto} />
+          <ProdutoCard key={produto.urlProduto} produto={produto} />
         ))}
       </div>
 
