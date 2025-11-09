@@ -1,7 +1,7 @@
 // public/forced-dark.js
 
 // ✅ TESTE: se aparecer uma borda vermelha, o script ESTÁ executando
-document.body.style.border = "6px solid red";
+// document.body.style.border = "6px solid red";
 
 (function(){
   function detectForcedDark(){ 
