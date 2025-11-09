@@ -95,5 +95,6 @@ export default async function ProdutosPage({
         ))}
       </div>
     </>
+    
   );
 }

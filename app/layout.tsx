@@ -36,7 +36,7 @@ export default function RootLayout({
         {children}
         </div>
         {/* ✅ arquivo JS externo agora vai aparecer no build de produção */}
-        <Script src="/forced-dark.js" strategy="afterInteractive" />
+        <Script src="/forced-dark.js" strategy="beforeInteractive" />
       </body>
     </html>
   );

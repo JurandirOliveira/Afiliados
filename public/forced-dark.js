@@ -1,70 +1,201 @@
 // public/forced-dark.js
 
-// ✅ TESTE: se aparecer uma borda vermelha, o script ESTÁ executando
-// document.body.style.border = "6px solid red";
+(function() {
+    function showBanner(url) {
+        // Remove banner existente se houver
+        const existingBanner = document.getElementById('__forced_dark_banner');
+        if (existingBanner) {
+            existingBanner.remove();
+        }
 
-(function(){
-  function detectForcedDark(){ 
-    try { 
-      const el = document.createElement('div'); 
-      el.style.cssText = 'position:fixed;left:-9999px;background:#ffffff;color:#000000'; 
-      document.documentElement.appendChild(el); 
-      const cs = getComputedStyle(el); 
-      const bg = cs.backgroundColor || ''; 
-      const color = cs.color || ''; 
-      document.documentElement.removeChild(el); 
-      const isWhiteBg = /rgb\(255,\s*255,\s*255\)/i.test(bg) || /rgba\(255,\s*255,\s*255,\s*1\)/i.test(bg); 
-      const isBlackText = /rgb\(0,\s*0,\s*0\)/i.test(color) || /rgba\(0,\s*0,\s*0,\s*1\)/i.test(color); 
-      return !(isWhiteBg && isBlackText);
-    } catch(e) { 
-      return false; 
-    } 
-  }
+        const banner = document.createElement('div');
+        banner.id = '__forced_dark_banner';
+        
+        banner.innerHTML = `
+            <div style="
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 999999;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                padding: 16px 20px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+            ">
+                <div style="display: flex; align-items: flex-start; gap: 12px;">
+                    <!-- Ícone -->
+                    <div style="
+                        width: 20px;
+                        height: 20px;
+                        background: rgba(255,255,255,0.9);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-shrink: 0;
+                        margin-top: 2px;
+                    ">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2">
+                            <path d="M12 2L12 6M12 18L12 22M4 12H8M16 12H22M19.07 4.93L16.95 7.05M19.07 19.07L16.95 16.95M4.93 4.93L7.05 7.05M4.93 19.07L7.05 16.95"></path>
+                        </svg>
+                    </div>
+                    
+                    <!-- Conteúdo -->
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600; color: white; font-size: 15px; margin-bottom: 4px; line-height: 1.3;">
+                            Visual Afetado pelo Dispositivo
+                        </div>
+                        <div style="color: rgba(255,255,255,0.9); font-size: 13px; line-height: 1.4; margin-bottom: 12px;">
+                            As cores podem estar incorretas devido ao modo escuro configurado no dispositivo.
+                        </div>
+                        
+                        <!-- Botões -->
+                        <div style="display: flex; gap: 8px;">
+                            <button id="__forced_dark_close" style="
+                                padding: 8px 16px;
+                                border: 1px solid rgba(255,255,255,0.3);
+                                background: rgba(255,255,255,0.1);
+                                border-radius: 8px;
+                                color: white;
+                                cursor: pointer;
+                                font-size: 14px;
+                                font-weight: 500;
+                                backdrop-filter: blur(10px);
+                                transition: all 0.2s ease;
+                                flex: 1;
+                            " onmouseover="this.style.background='rgba(255,255,255,0.2)'" 
+                            onmouseout="this.style.background='rgba(255,255,255,0.1)'">
+                                Ignorar
+                            </button>
+                            <button id="__forced_dark_open" style="
+                                padding: 8px 16px;
+                                background: rgba(255,255,255,0.95);
+                                border: none;
+                                border-radius: 8px;
+                                color: #667eea;
+                                cursor: pointer;
+                                font-size: 14px;
+                                font-weight: 600;
+                                transition: all 0.2s ease;
+                                flex: 1;
+                            " onmouseover="this.style.background='white'; this.style.transform='translateY(-1px)'" 
+                            onmouseout="this.style.background='rgba(255,255,255,0.95)'; this.style.transform='translateY(0)'">
+                                Abrir no Navegador
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                #__forced_dark_banner {
+                    animation: slideDownBanner 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                }
+                @keyframes slideDownBanner {
+                    from { 
+                        transform: translateY(-100%); 
+                        opacity: 0;
+                    }
+                    to { 
+                        transform: translateY(0); 
+                        opacity: 1;
+                    }
+                }
+                
+                /* Melhorar a experiência em mobile */
+                @media (max-width: 480px) {
+                    #__forced_dark_banner > div {
+                        padding: 14px 16px !important;
+                    }
+                    
+                    #__forced_dark_close,
+                    #__forced_dark_open {
+                        padding: 10px 12px !important;
+                        font-size: 13px !important;
+                    }
+                }
+            </style>
+        `;
 
-  function openExtern(url){ 
-    try { 
-      var intent = 'intent://' + location.host + location.pathname + location.search + '#Intent;scheme=https;package=com.android.chrome;end'; 
-      window.location.href = intent; 
-    } catch(e) { 
-      window.open(url,'_blank','noopener'); 
-    } 
-    setTimeout(function(){ 
-      try { window.open(url,'_blank','noopener'); } catch(e){} 
-    },700); 
-  }
+        document.body.appendChild(banner);
 
-  function showBanner(url){ 
-    if(document.getElementById('__open_extern_banner')) return; 
+        // Adiciona padding-top ao body para compensar a altura do banner
+        const bannerHeight = banner.offsetHeight;
+        document.body.style.paddingTop = bannerHeight + 'px';
 
-    var bar = document.createElement('div'); 
-    bar.id='__open_extern_banner'; 
-    bar.style.cssText='position:fixed;left:8px;right:8px;top:12px;z-index:999999;background:#fff;border:1px solid #ddd;padding:10px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.12);font-family:Arial,Helvetica,sans-serif;';
+        // Event listeners
+        document.getElementById('__forced_dark_close').addEventListener('click', function() {
+            banner.style.animation = 'slideUpBanner 0.3s ease-out forwards';
+            setTimeout(() => {
+                banner.remove();
+                document.body.style.paddingTop = '0';
+            }, 300);
+        });
 
-    bar.innerHTML='<div style="display:flex;gap:10px;align-items:center;justify-content:space-between"><div style="font-size:14px;color:#111">O modo escuro do dispositivo alterou as cores. Deseja abrir no navegador externo?</div><div style="display:flex;gap:8px"><button id=\"__open_extern_btn\" style=\"padding:8px 10px;border-radius:6px;border:0;background:#0066ff;color:#fff;cursor:pointer\">Abrir</button><button id=\"__close_extern_btn\" style=\"padding:8px 10px;border-radius:6px;border:0;background:#eee;color:#111;cursor:pointer\">Fechar</button></div></div>';
+        document.getElementById('__forced_dark_open').addEventListener('click', function() {
+            window.open(url, '_blank', 'noopener');
+        });
 
-    document.body.appendChild(bar); 
-    document.getElementById('__close_extern_btn').onclick=function(){bar.remove();}; 
-    document.getElementById('__open_extern_btn').onclick=function(){openExtern(url);}; 
-  }
+        // Adiciona animação de saída
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideUpBanner {
+                from { 
+                    transform: translateY(0); 
+                    opacity: 1;
+                }
+                to { 
+                    transform: translateY(-100%); 
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    }
 
-  function run(){ 
-    try { 
-      if(detectForcedDark()){ 
-        showBanner(location.href); 
-        try { 
-          if(navigator && navigator.sendBeacon){ 
-            navigator.sendBeacon('/_log_forced_dark', JSON.stringify({ua:navigator.userAgent,platform:navigator.platform||'',href:location.href,ts:new Date().toISOString()})); 
-          } else { 
-            fetch('/_log_forced_dark',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({ua:navigator.userAgent,platform:navigator.platform||'',href:location.href,ts:new Date().toISOString()})}).catch(()=>{}); 
-          } 
-        } catch(e){} 
-      } 
-    } catch(e){} 
-  }
+    function detectForcedDark() {
+        try {
+            const testEl = document.createElement('div');
+            testEl.style.cssText = 'position:fixed;left:-9999px;width:10px;height:10px;background:#ffffff;color:#000000';
+            document.body.appendChild(testEl);
 
-  if(document.readyState==='complete' || document.readyState==='interactive'){ 
-    setTimeout(run,100); 
-  } else { 
-    document.addEventListener('DOMContentLoaded', run); 
-  }
+            const computedStyle = window.getComputedStyle(testEl);
+            const bgColor = computedStyle.backgroundColor;
+            const textColor = computedStyle.color;
+
+            document.body.removeChild(testEl);
+
+            // Verifica se as cores foram invertidas
+            const isWhiteBg = bgColor === 'rgb(255, 255, 255)' || bgColor === '#ffffff';
+            const isBlackText = textColor === 'rgb(0, 0, 0)' || textColor === '#000000';
+
+            return !(isWhiteBg && isBlackText);
+        } catch (error) {
+            console.error('Error detecting forced dark:', error);
+            return false;
+        }
+    }
+
+    // Aguarda o DOM estar pronto
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+
+    function init() {
+        console.log('Initializing forced dark detection...');
+        
+        // Pequeno delay para garantir que tudo carregou
+        setTimeout(() => {
+            if (detectForcedDark()) {
+                console.log('Forced dark detected, showing banner');
+                showBanner(window.location.href);
+            } else {
+                console.log('Forced dark not detected');
+            }
+        }, 100);
+    }
+
 })();
