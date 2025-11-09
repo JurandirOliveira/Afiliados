@@ -27,15 +27,15 @@ export async function generateMetadata({
     description,
     alternates: {
       canonical: categoria
-        ? `https://SEU_DOMINIO.vercel.app/produtos?categoria=${encodeURIComponent(
+        ? `https://https://afiliados-sage.vercel.app//produtos?categoria=${encodeURIComponent(
             categoria
           )}`
-        : "https://SEU_DOMINIO.vercel.app/produtos",
+        : "https://https://afiliados-sage.vercel.app//produtos",
     },
     openGraph: {
       title,
       description,
-      url: "https://SEU_DOMINIO.vercel.app/produtos",
+      url: "https://https://afiliados-sage.vercel.app//produtos",
       siteName: "Apps Jurandir Oliveira",
       type: "website",
       images: [
