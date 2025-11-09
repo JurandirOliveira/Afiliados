@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -6,6 +7,30 @@ export default function Home() {
 
       {/* HERO */}
       <section className="flex flex-1 flex-col items-center justify-center text-center px-6 py-20 bg-white">
+
+
+{/* LOGO JO */}
+        <div 
+          className="flex flex-col items-center gap-2"
+
+        >
+          <div 
+            className="relative w-40 h-40  mb-10"
+
+          >
+            <Image
+              src="/logo-jao.png"
+              alt="Logo JO"
+              fill
+            />
+          </div>
+
+          {/* <span 
+            className="text-sm font-semibold text-black-900 hidden sm:block"
+          >
+            Afiliado ML
+          </span> */}
+        </div>
 
         <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
           Bem-vindo(a)!

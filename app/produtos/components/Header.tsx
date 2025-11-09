@@ -16,42 +16,25 @@ export default function Header() {
           background: '#ffe700 !important'
         }}
       >
-        {/* LOGO JO */}
+
+        {/* LOGO MERCADO LIVRE */}
         <div 
-          className="flex flex-col items-center gap-2"
+          className="relative w-20 h-20 md:w-32 md:h-32"
           style={{
             backgroundColor: '#ffe700 !important',
             background: '#ffe700 !important'
           }}
         >
-          <div 
-            className="relative w-14 h-14 md:w-14 md:h-14 hidden sm:block"
-            style={{
-              backgroundColor: '#ffe700 !important',
-              background: '#ffe700 !important'
+          <Image
+            src="/logo-ML-mobile.png"
+            alt="Logo Mercado Livre"
+            fill
+            style={{ 
+              objectFit: "contain",
+              backgroundColor: '#ffe700 !important'
             }}
-          >
-            <Image
-              src="/logo-jo.png"
-              alt="Logo JO"
-              fill
-              style={{ 
-                objectFit: "contain",
-                backgroundColor: '#ffe700 !important'
-              }}
-            />
-          </div>
-
-          <span 
-            className="text-sm font-semibold text-black-900 hidden sm:block"
-            style={{
-              backgroundColor: '#ffe700 !important',
-              background: '#ffe700 !important'
-            }}
-          >
-            Afiliado ML
-          </span>
-        </div>
+          />
+        </div>        
 
         {/* TÍTULO CENTRAL */}
         <div 
@@ -83,24 +66,6 @@ export default function Header() {
           </p> 
         </div>
 
-        {/* LOGO MERCADO LIVRE */}
-        <div 
-          className="relative w-20 h-20 md:w-28 md:h-28"
-          style={{
-            backgroundColor: '#ffe700 !important',
-            background: '#ffe700 !important'
-          }}
-        >
-          <Image
-            src="/logo-ML-mobile.png"
-            alt="Logo Mercado Livre"
-            fill
-            style={{ 
-              objectFit: "contain",
-              backgroundColor: '#ffe700 !important'
-            }}
-          />
-        </div>
       </div>
     </header>
   );
