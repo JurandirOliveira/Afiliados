@@ -1,4 +1,7 @@
 // public/forced-dark.js
+console.log("FORCED DARK JS rodou!");
+
+const FORCE_TEST = true;
 
 (function() {
     function showBanner(url) {
@@ -45,10 +48,10 @@
                     <!-- Conteúdo -->
                     <div style="flex: 1;">
                         <div style="font-weight: 600; color: white; font-size: 15px; margin-bottom: 4px; line-height: 1.3;">
-                            Visual Afetado pelo Dispositivo
+                            Melhor experiência disponível
                         </div>
                         <div style="color: rgba(255,255,255,0.9); font-size: 13px; line-height: 1.4; margin-bottom: 12px;">
-                            As cores podem estar incorretas devido ao modo escuro configurado no dispositivo.
+                            Para melhor experiência visual, recomendamos abrir este site em navegador.
                         </div>
                         
                         <!-- Botões -->
@@ -189,7 +192,7 @@
         
         // Pequeno delay para garantir que tudo carregou
         setTimeout(() => {
-            if (detectForcedDark()) {
+            if (FORCE_TEST || detectForcedDark()) {
                 console.log('Forced dark detected, showing banner');
                 showBanner(window.location.href);
             } else {
