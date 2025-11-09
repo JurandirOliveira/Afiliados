@@ -13,28 +13,30 @@ export const metadata: Metadata = {
     template: "%s · Apps Jurandir Oliveira",
   },
   description: "As melhores ofertas selecionadas do Mercado Livre...",
+  // ✅ metas devem ficar aqui!
+  other: {
+    "color-scheme": "light",
+    "supported-color-schemes": "light",
+    "theme-color": "#ffffff",
+    "force-dark": "off",
+  },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <head>
-        <meta name="color-scheme" content="light" />
-        <meta name="supported-color-schemes" content="light" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="force-dark" content="off" />
-      </head>
-
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased text-gray-600`}
-        suppressHydrationWarning
       >
         {children}
 
-        {/* ✅ Arquivo externo sem inlineScript */}
+        {/* ✅ arquivo JS externo agora vai aparecer no build de produção */}
         <Script src="/forced-dark.js" strategy="afterInteractive" />
       </body>
-      
     </html>
   );
 }

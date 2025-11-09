@@ -1,8 +1,70 @@
 // public/forced-dark.js
+
+// ✅ TESTE: se aparecer uma borda vermelha, o script ESTÁ executando
+document.body.style.border = "6px solid red";
+
 (function(){
-  function detectForcedDark(){ try{ const el=document.createElement('div'); el.style.cssText='position:fixed;left:-9999px;background:#ffffff;color:#000000'; document.documentElement.appendChild(el); const cs=getComputedStyle(el); const bg=cs.backgroundColor||''; const color=cs.color||''; document.documentElement.removeChild(el); const isWhiteBg=/rgb\\(255,\\s*255,\\s*255\\)/i.test(bg)||/rgba\\(255,\\s*255,\\s*255,\\s*1\\)/i.test(bg); const isBlackText=/rgb\\(0,\\s*0,\\s*0\\)/i.test(color)||/rgba\\(0,\\s*0,\\s*0,\\s*1\\)/i.test(color); return !(isWhiteBg && isBlackText);}catch(e){return false;} }
-  function openExtern(url){ try{ var intent='intent://'+location.host+location.pathname+location.search+'#Intent;scheme=https;package=com.android.chrome;end'; window.location.href=intent; }catch(e){ window.open(url,'_blank','noopener'); } setTimeout(function(){ try{ window.open(url,'_blank','noopener'); }catch(e){} },700); }
-  function showBanner(url){ if(document.getElementById('__open_extern_banner')) return; var bar=document.createElement('div'); bar.id='__open_extern_banner'; bar.style.cssText='position:fixed;left:8px;right:8px;top:12px;z-index:999999;background:#fff;border:1px solid #ddd;padding:10px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.12);font-family:Arial,Helvetica,sans-serif;'; bar.innerHTML='<div style="display:flex;gap:10px;align-items:center;justify-content:space-between"><div style="font-size:14px;color:#111">O modo escuro do dispositivo alterou as cores. Deseja abrir no navegador externo?</div><div style="display:flex;gap:8px"><button id=\"__open_extern_btn\" style=\"padding:8px 10px;border-radius:6px;border:0;background:#0066ff;color:#fff;cursor:pointer\">Abrir</button><button id=\"__close_extern_btn\" style=\"padding:8px 10px;border-radius:6px;border:0;background:#eee;color:#111;cursor:pointer\">Fechar</button></div></div>'; document.body.appendChild(bar); document.getElementById('__close_extern_btn').onclick=function(){bar.remove();}; document.getElementById('__open_extern_btn').onclick=function(){openExtern(url);}; }
-  function run(){ try{ if(detectForcedDark()){ showBanner(location.href); try{ if(navigator && navigator.sendBeacon){ navigator.sendBeacon('/_log_forced_dark', JSON.stringify({ua:navigator.userAgent,platform:navigator.platform||'',href:location.href,ts:new Date().toISOString()})); } else { fetch('/_log_forced_dark',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({ua:navigator.userAgent,platform:navigator.platform||'',href:location.href,ts:new Date().toISOString()})}).catch(()=>{}); } } }catch(e){} }
-  if(document.readyState==='complete' || document.readyState==='interactive'){ setTimeout(run,100); } else { document.addEventListener('DOMContentLoaded', run); }
+  function detectForcedDark(){ 
+    try { 
+      const el = document.createElement('div'); 
+      el.style.cssText = 'position:fixed;left:-9999px;background:#ffffff;color:#000000'; 
+      document.documentElement.appendChild(el); 
+      const cs = getComputedStyle(el); 
+      const bg = cs.backgroundColor || ''; 
+      const color = cs.color || ''; 
+      document.documentElement.removeChild(el); 
+      const isWhiteBg = /rgb\(255,\s*255,\s*255\)/i.test(bg) || /rgba\(255,\s*255,\s*255,\s*1\)/i.test(bg); 
+      const isBlackText = /rgb\(0,\s*0,\s*0\)/i.test(color) || /rgba\(0,\s*0,\s*0,\s*1\)/i.test(color); 
+      return !(isWhiteBg && isBlackText);
+    } catch(e) { 
+      return false; 
+    } 
+  }
+
+  function openExtern(url){ 
+    try { 
+      var intent = 'intent://' + location.host + location.pathname + location.search + '#Intent;scheme=https;package=com.android.chrome;end'; 
+      window.location.href = intent; 
+    } catch(e) { 
+      window.open(url,'_blank','noopener'); 
+    } 
+    setTimeout(function(){ 
+      try { window.open(url,'_blank','noopener'); } catch(e){} 
+    },700); 
+  }
+
+  function showBanner(url){ 
+    if(document.getElementById('__open_extern_banner')) return; 
+
+    var bar = document.createElement('div'); 
+    bar.id='__open_extern_banner'; 
+    bar.style.cssText='position:fixed;left:8px;right:8px;top:12px;z-index:999999;background:#fff;border:1px solid #ddd;padding:10px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.12);font-family:Arial,Helvetica,sans-serif;';
+
+    bar.innerHTML='<div style="display:flex;gap:10px;align-items:center;justify-content:space-between"><div style="font-size:14px;color:#111">O modo escuro do dispositivo alterou as cores. Deseja abrir no navegador externo?</div><div style="display:flex;gap:8px"><button id=\"__open_extern_btn\" style=\"padding:8px 10px;border-radius:6px;border:0;background:#0066ff;color:#fff;cursor:pointer\">Abrir</button><button id=\"__close_extern_btn\" style=\"padding:8px 10px;border-radius:6px;border:0;background:#eee;color:#111;cursor:pointer\">Fechar</button></div></div>';
+
+    document.body.appendChild(bar); 
+    document.getElementById('__close_extern_btn').onclick=function(){bar.remove();}; 
+    document.getElementById('__open_extern_btn').onclick=function(){openExtern(url);}; 
+  }
+
+  function run(){ 
+    try { 
+      if(detectForcedDark()){ 
+        showBanner(location.href); 
+        try { 
+          if(navigator && navigator.sendBeacon){ 
+            navigator.sendBeacon('/_log_forced_dark', JSON.stringify({ua:navigator.userAgent,platform:navigator.platform||'',href:location.href,ts:new Date().toISOString()})); 
+          } else { 
+            fetch('/_log_forced_dark',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({ua:navigator.userAgent,platform:navigator.platform||'',href:location.href,ts:new Date().toISOString()})}).catch(()=>{}); 
+          } 
+        } catch(e){} 
+      } 
+    } catch(e){} 
+  }
+
+  if(document.readyState==='complete' || document.readyState==='interactive'){ 
+    setTimeout(run,100); 
+  } else { 
+    document.addEventListener('DOMContentLoaded', run); 
+  }
 })();
