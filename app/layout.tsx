@@ -32,8 +32,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased text-gray-600`}
       >
+        <div className="page-background">
         {children}
-
+        </div>
         {/* ✅ arquivo JS externo agora vai aparecer no build de produção */}
         <Script src="/forced-dark.js" strategy="afterInteractive" />
       </body>

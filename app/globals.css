@@ -4,31 +4,40 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Não muda */
 :root {
   color-scheme: light !important;
   forced-color-adjust: none !important;
 }
 
+/* ✅ html precisa ser branco para DESATIVAR Forced Dark */
 html {
-  color-scheme: only light !important;
-  background: #efefef !important;
-  
+  background: #ffffff !important; /* <- ESSENCIAL */
+  color-scheme: light !important;
   forced-color-adjust: none !important;
+
   isolation: isolate !important;
   filter: none !important;
   -webkit-filter: none !important;
   mix-blend-mode: normal !important;
-  transform: translateZ(0) !important; /* força rasterização e isola a camada */
+  transform: translateZ(0) !important;
 }
 
+/* ✅ body também precisa ser branco */
 body {
+  background: #ffffff !important; /* <- ESSENCIAL */
   color-scheme: light !important;
-  background: #efefef !important;
   font-family: Arial, Helvetica, sans-serif !important;
 
   isolation: isolate !important;
 }
 
+/* ✅ Aqui você coloca seu fundo #efefef sem ativar forced-dark */
+.page-background {
+  background: #efefef !important;
+}
+
+/* Mantém suas cores no header */
 header * {
   color: #1f264d !important;
   -webkit-text-fill-color: #1f264d !important;
@@ -37,13 +46,4 @@ header * {
   mix-blend-mode: normal !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  header * {
-    color: #1f264d !important;
-    -webkit-text-fill-color: #1f264d !important;
-    filter: none !important;
-    -webkit-filter: none !important;
-    mix-blend-mode: normal !important;
-  }
-}
-/* REMOVA completamente qualquer @media (prefers-color-scheme) */
+/* ✅ REMOVIDO: não usamos mais media queries de dark mode */
