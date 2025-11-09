@@ -26,7 +26,7 @@ export default function Home() {
 
       {/* RODAPÉ */}
       <footer className="text-center py-6 text-gray-500 text-sm">
-        © {new Date().getFullYear()} | Apps Jurandir Oliveira – Afiliado Mercado Livre
+        © {new Date().getFullYear()} | Apps Jurandir Oliveira – Afiliado Mercado Livre - versão 1.0
       </footer>
 
     </div>

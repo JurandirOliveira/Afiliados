@@ -34,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* ✅ Arquivo externo sem inlineScript */}
         <Script src="/forced-dark.js" strategy="afterInteractive" />
       </body>
+      
     </html>
   );
 }
