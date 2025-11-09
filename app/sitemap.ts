@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import produtos from "@/data/produtos.json";
+import produtos from "../data/produtos.json";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://apps-jo.vercel.app"; // ALTERE PARA SEU DOMÍNIO REAL
