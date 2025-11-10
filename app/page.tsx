@@ -22,6 +22,7 @@ export default function Home() {
               src="/logo-jao.png"
               alt="Logo JO"
               fill
+              className="rounded-full object-cover"
             />
           </div>
 
@@ -43,7 +44,7 @@ export default function Home() {
 
         <Link
           href="/produtos"
-          className="bg-ml-yellow text-gray-900 font-semibold px-10 py-4 rounded-full shadow hover:brightness-95 transition text-lg"
+          className="bg-gray-900 text-white font-semibold px-10 py-4 rounded-full shadow hover:brightness-95 transition text-lg"
         >
           Ver Produtos
         </Link>

@@ -36,7 +36,7 @@ export default function ProdutoCard({ produto }: ProdutoCardProps) {
       href={produto.urlProduto}
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-white rounded-xl border-0 sm:border hover:shadow-lg transition p-4 flex flex-col cursor-pointer"
+      className="bg-white rounded-xl border-0 sm:border sm:border-gray-300 hover:shadow-lg transition p-4 flex flex-col cursor-pointer"
     >
       {/* IMAGEM */}
       <div className="w-full h-42 sm:h52 bg-white-100 rounded-lg overflow-hidden flex items-center justify-center">
